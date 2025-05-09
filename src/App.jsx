@@ -1,6 +1,6 @@
 import React from 'react';
-import WaveBackground from './components/WaveBackground';
-import Card from './components/Card';
+import WaveBackground from './components/WaveBackground/WaveBackground';
+import Card from './components/Card/Card';
 
 
 function App() {
