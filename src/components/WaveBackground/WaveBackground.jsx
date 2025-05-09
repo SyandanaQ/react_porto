@@ -21,7 +21,7 @@ function WaveBackground() {
           height: 20,     // posisi gelombang di SVG
           amplitude: 10,  // tinggi gelombang
           speed: 0.3,
-          points: 4,
+          points: 2,
         }}
       />
     </div>
