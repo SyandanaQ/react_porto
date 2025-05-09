@@ -1,0 +1,23 @@
+.wave-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    animation: moveWave 10s linear infinite;
+  }
+  
+  @keyframes moveWave {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  svg {
+    width: 200%;
+    height: auto;
+  }
+  
