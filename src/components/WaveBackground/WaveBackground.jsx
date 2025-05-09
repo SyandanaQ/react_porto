@@ -10,7 +10,7 @@ function WaveBackground() {
         bottom: 0,
         left: 0,
         zIndex: -1,
-        height: '350px', // <-- tinggi container wajib diatur
+        height: '300px', // <-- tinggi container wajib diatur
         overflow: 'hidden',
       }}
     >

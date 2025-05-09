@@ -3,7 +3,7 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    margin: 200px auto;
+    margin: 200px auto 0 auto;
     height: 600px;
     overflow: hidden;
     padding-bottom: 40px;
