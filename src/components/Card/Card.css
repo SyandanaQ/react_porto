@@ -1,74 +1,86 @@
 .card {
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 200px auto 0 auto;
-    height: 550px;
-    overflow: hidden;
-    padding-bottom: 40px;
-  }
-  
-  .header {
-    background-color: #3e3e3e;
-    padding: 16px 20px;
-  }
-  
-  .title {
-    margin: 0;
-    color: #fff;
-    text-align: left;
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-  }
-  
-  .body {
-    padding: 20px;
-    margin-top: 120px;
-  }
-  
-  .intro {
-    text-align: center;
-  }
-  
-  .hi-text {
-    color: #000;
-    font-size: 70px;
-  }
-  
-  .dann-text {
-    color: #FFA500;
-    font-size: 70px;
-    font-weight: bold;
-  }
-  
-  .subtitle {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 10px;
-    color: #333;
-  }
-  
-  .icon-row {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-  }
-  
-  .icon-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #333;
-    font-size: 16px;
-    font-family: Montserrat, sans-serif;
-    transition: transform 0.3s, color 0.3s;
-    cursor: pointer;
-  }
-  
-  .icon-label {
-    margin-top: 8px;
-  }
-  
-  
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 200px auto 0 auto;
+  height: 550px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.header {
+  background-color: #3e3e3e;
+  padding: 16px 20px;
+}
+
+.title {
+  margin: 0;
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+}
+
+.body {
+  padding: 20px;
+  margin-top: 120px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.hi-text {
+  color: #000;
+  font-size: 70px;
+}
+
+.dann-text {
+  color: #ffa500;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.icon-row {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.icon-item:hover {
+  transform: scale(1.1);
+}
+
+.icon-label {
+  margin-top: 8px;
+}
+
+.icon-svg {
+  filter: drop-shadow(3px 4px 6px rgba(0, 0, 0, 0.25));
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-svg:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 8px 12px rgba(0, 0, 0, 0.4));
+}

@@ -27,15 +27,15 @@ function Card() {
 
         <div className="icon-row">
           <div className="icon-item" onClick={aboutPopup.openPopup}>
-            <BsInfoCircle size={80} />
+            <BsInfoCircle className="icon-svg" size={80} />
             <span className="icon-label">About</span>
           </div>
           <div className="icon-item" onClick={faqPopup.openPopup}>
-            <LuFileQuestion size={80} />
+            <LuFileQuestion className="icon-svg" size={80} />
             <span className="icon-label">FAQ</span>
           </div>
           <div className="icon-item" onClick={contactPopup.openPopup}>
-            <BsEnvelopeAt size={80} />
+            <BsEnvelopeAt className="icon-svg" size={80} />
             <span className="icon-label">Contact</span>
           </div>
         </div>
